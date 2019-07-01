@@ -90,10 +90,6 @@ then you reply on your phone responses will be registered on the client side.
 Once you are done quizzing your contacts you can open up Ranker companion app 
 to visualize and manipulate results from the Quiz session as well as use database features.
 
-NOTE TO FACILITATOR
-I left my two phone numbers in the contact list so that I can help you test it if need be. If you add yourself as a contact and initialize the quiz, I will get your question via SMS since I am on the list as well. If I am by my phone I can answer it and that way you can get more responses. Once you pick option 7 "End Question" all our answers will be evaluated and graded. You can then ask another question or open up Ranker and view user Results.
-
-
 -------------------------------------------------------------------------------------------------
 DEPENDENCIES
 ------------------------------------------------------------------------------------------------
