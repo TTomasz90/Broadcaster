@@ -20,16 +20,11 @@ Broadcaster for since version 0.3.0 now comes with a additional server applicati
 support the new quiz functions. That application is a node.js server. And also the
 Ranker companion application for Visualizing the Quiz grades.
 
-Navigate to the Broadcaster Server directory and in the command line run:
+*** MAKE SURE TO INPUT YOUR ID AND TOKEN FOR TWILLIO API IN THE CREDENTIALS.TXT FILE
+YOU MUST CREATE A TWILLIO ACCOUNT FOR THOSE.
 
-	$ npm install 
-
-Once all modules finish installing (this might take a minute or two the library is quite large) 
-via command line run.
-
-	$ node server
-
-***MAKE SURE THE SERVER IS RUNNING OR THE QUIZ FEATURES WILL NOT WORK.
+IN THE PROCESS OF UPLOADING SERVER TO HEROKU QUIZ PORTION NOT WORKING
+SENDING MESSAGES AND EMAILLS WILL WORK 
 
 You should see this message if everything is working:
 
