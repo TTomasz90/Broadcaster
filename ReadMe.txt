@@ -26,23 +26,6 @@ YOU MUST CREATE A TWILLIO ACCOUNT FOR THOSE.
 IN THE PROCESS OF UPLOADING SERVER TO HEROKU QUIZ PORTION NOT WORKING
 SENDING MESSAGES AND EMAILLS WILL WORK 
 
-You should see this message if everything is working:
-
-SERVER listening on localhost port  8080
-CONNECTED to ngrok tunnel https://broadcaster.ngrok.io
-
-Leave the server running and open another command line window this time in the 
-Broadcaster and Ranker Client folder.
-I packaged the Broadcaster and Ranker java client application as a jar executable.
-In your command line run:
-
-	$ java -jar Broadcaster.jar
-
-and to run Ranker use:
-
-	$ java -jar Ranker.jar
-
-
 ***NEW FOR VERSION 0.5.0 RANKER REQUIRES MySQL DATABASE CONNECTION
 
 Befor using the database features of Ranker you must have an MySql server running.
