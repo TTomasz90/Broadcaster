@@ -24,22 +24,16 @@ Ranker companion application for Visualizing the Quiz grades.
 YOU MUST CREATE A TWILLIO ACCOUNT FOR THOSE.
 
 IN THE PROCESS OF UPLOADING SERVER TO HEROKU QUIZ PORTION NOT WORKING
-SENDING MESSAGES AND EMAILLS WILL WORK 
+SENDING MESSAGES AND EMAILLS WILL WORK. 
 
 ***NEW FOR VERSION 0.5.0 RANKER REQUIRES MySQL DATABASE CONNECTION
 
-Befor using the database features of Ranker you must have an MySql server running.
+Before using the database features of Ranker you must have an MySql server running.
 Create a new Database and name it "broadcaster" all lowercase.
-Create a user with access to that database with the following credentials and all permissions:
+Create a user with access to that database with the following credentials and permissions:
 
 USERNAME: cs622admin
 PASSWORD: cs622
-
-Then run 
-
-	$ java -jar CreateDatabase.jar
-
-If everything runs correctly you should see "Data successfully created" message
 
 You can now use all features of Brodcaster and Ranker application.
 
