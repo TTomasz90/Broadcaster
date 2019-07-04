@@ -23,8 +23,6 @@ Ranker companion application for Visualizing the Quiz grades.
 *** MAKE SURE TO INPUT YOUR ID AND TOKEN FOR TWILLIO API IN THE CREDENTIALS.TXT FILE
 YOU MUST CREATE A TWILLIO ACCOUNT FOR THOSE.
 
-IN THE PROCESS OF UPLOADING SERVER TO HEROKU QUIZ PORTION NOT WORKING
-SENDING MESSAGES AND EMAILLS WILL WORK. 
 
 ***NEW FOR VERSION 0.5.0 RANKER REQUIRES MySQL DATABASE CONNECTION
 
@@ -43,14 +41,14 @@ USAGE NOTES FOR NEW FEATURES
 ------------------------------------------------------------------------------------------------
 
 Menu:
-1. Broadcast SMS
+1. Broadcast SMS     -> broadcast sms to contacts (currently requires Twillo credentials) migrating to sever
 2. Broadcast Email
 3. Add Contact
 4. Delete Contact
 5. View Contact List
 6. Begin Question
 7. End Question
-8. Current Question Status <==
+8. Current Question Status 
 9. Exit
 
 
