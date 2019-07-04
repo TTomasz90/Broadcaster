@@ -20,48 +20,20 @@ Broadcaster for since version 0.3.0 now comes with a additional server applicati
 support the new quiz functions. That application is a node.js server. And also the
 Ranker companion application for Visualizing the Quiz grades.
 
-Navigate to the Broadcaster Server directory and in the command line run:
+*** MAKE SURE TO INPUT YOUR ID AND TOKEN FOR TWILLIO API IN THE CREDENTIALS.TXT FILE
+YOU MUST CREATE A TWILLIO ACCOUNT FOR THOSE.
 
-	$ npm install 
-
-Once all modules finish installing (this might take a minute or two the library is quite large) 
-via command line run.
-
-	$ node server
-
-***MAKE SURE THE SERVER IS RUNNING OR THE QUIZ FEATURES WILL NOT WORK.
-
-You should see this message if everything is working:
-
-SERVER listening on localhost port  8080
-CONNECTED to ngrok tunnel https://broadcaster.ngrok.io
-
-Leave the server running and open another command line window this time in the 
-Broadcaster and Ranker Client folder.
-I packaged the Broadcaster and Ranker java client application as a jar executable.
-In your command line run:
-
-	$ java -jar Broadcaster.jar
-
-and to run Ranker use:
-
-	$ java -jar Ranker.jar
-
+IN THE PROCESS OF UPLOADING SERVER TO HEROKU QUIZ PORTION NOT WORKING
+SENDING MESSAGES AND EMAILLS WILL WORK. 
 
 ***NEW FOR VERSION 0.5.0 RANKER REQUIRES MySQL DATABASE CONNECTION
 
-Befor using the database features of Ranker you must have an MySql server running.
+Before using the database features of Ranker you must have an MySql server running.
 Create a new Database and name it "broadcaster" all lowercase.
-Create a user with access to that database with the following credentials and all permissions:
+Create a user with access to that database with the following credentials and permissions:
 
 USERNAME: cs622admin
 PASSWORD: cs622
-
-Then run 
-
-	$ java -jar CreateDatabase.jar
-
-If everything runs correctly you should see "Data successfully created" message
 
 You can now use all features of Brodcaster and Ranker application.
 
@@ -94,10 +66,6 @@ then you reply on your phone responses will be registered on the client side.
 
 Once you are done quizzing your contacts you can open up Ranker companion app 
 to visualize and manipulate results from the Quiz session as well as use database features.
-
-NOTE TO FACILITATOR
-I left my two phone numbers in the contact list so that I can help you test it if need be. If you add yourself as a contact and initialize the quiz, I will get your question via SMS since I am on the list as well. If I am by my phone I can answer it and that way you can get more responses. Once you pick option 7 "End Question" all our answers will be evaluated and graded. You can then ask another question or open up Ranker and view user Results.
-
 
 -------------------------------------------------------------------------------------------------
 DEPENDENCIES
