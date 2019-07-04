@@ -432,7 +432,7 @@ public class Broadcaster {
 
 				// request Broadcaster server to send the question to all users
 				// in the contact list and wait for replies
-				currentQuiz.initializeQuiz("http://broadcaster.ngrok.io/start");
+				currentQuiz.initializeQuiz("http://brod-server.herokuapp.com/start");
 
 				// start quiz question monitoring
 				elapsedTime = new GetTimeElapsed(System.currentTimeMillis());
@@ -469,7 +469,7 @@ public class Broadcaster {
 					answerCount.stopRunning();
 
 					// get recorded answers from the Broadcaster server
-					String resultString = currentQuiz.terminateQuiz("http://broadcaster.ngrok.io/results");
+					String resultString = currentQuiz.terminateQuiz("http://brod-server.herokuapp.com/results");
 
 					// convert results to JSON object
 					JSONObject jsonObject = new JSONObject(resultString);

@@ -80,7 +80,7 @@ public class GetAnswerCount implements Runnable {
 		while (threadRunning) {
 
 			// server url
-			String url = "http://broadcaster.ngrok.io/answerCount";
+			String url = "http://brod-server.herokuapp.com/answerCount";
 
 			OkHttpClient client = new OkHttpClient();
 
