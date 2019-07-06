@@ -13,6 +13,25 @@ VERSION 0.6.0 changes
 -added answer monitoring thread to keep track of incoming responses in real-time.
 
 ------------------------------------------------------------------------------------------------
+ABOUT 
+------------------------------------------------------------------------------------------------
+
+The project I implemented is a student communication and assessment tool that Professors/Facilitators 
+can use to assess student engagement and understanding of the presented material. Via the system called
+Broadcaster faculty can send student remainders directly to the entire class from a specified set of contacts.
+Broadcaster will integrate a contact list that can accept, delete and display available contacts. Users
+will be easily able to compose new messages both in Email and SMS formats and broadcast them to all 
+contacts on the contact list. During live lectures, the faculty will also be able to send multiple choice
+questions via SMS as a form of an interactive quiz to measure student understanding and progress based
+on the number of correct answers. The faculty will be able to view the progress of students in real time
+to see how much time students are spending on the administered questions and how many responses were recorded
+from the pool of students. The purpose of the project is to create a learning tool that will aid the faculty
+in student assessment and engage students to actively participate in a live class. The program will also introduce 
+a Gui companion program called Ranker for viewing results from the administered Quiz. It provides the ability to 
+sort participant scores based on correctness and display best and worst performing individuals. It also 
+incorporates database connectivity to store and retrieve past quiz information and student grades.
+
+------------------------------------------------------------------------------------------------
 INSTALL
 ------------------------------------------------------------------------------------------------
 
