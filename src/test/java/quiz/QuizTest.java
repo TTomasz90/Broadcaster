@@ -40,7 +40,7 @@ public class QuizTest {
 
 		Quiz testQuiz = new Quiz("Test question?", "test", testList);
 
-		testQuiz.initializeQuiz("http://brod-server.herokuapp.com/test");
+		testQuiz.initializeQuiz("http://broadcaster.ngrok.io/test");
 
 		// then Compare server response to expected response.
 
