@@ -49,8 +49,8 @@ Before using the database features of Ranker you must have an MySql server runni
 Create a new Database and name it "broadcaster" all lowercase.
 Create a user with access to that database with the following credentials and permissions:
 
-USERNAME: cs622admin
-PASSWORD: cs622
+USERNAME: admin
+PASSWORD: pass
 
 You can now use all features of Brodcaster and Ranker application.
 

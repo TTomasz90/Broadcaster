@@ -50,8 +50,8 @@ public class CreateSQLdatabase {
 			String DRIVER = "com.mysql.cj.jdbc.Driver";
 			String DB_URL = "jdbc:mysql://localhost:3306/broadcaster";
 
-			String USER = "cs622admin";
-			String PASS = "cs622";
+			String USER = "admin";
+			String PASS = "pass";
 			Class.forName(DRIVER);
 
 			Connection connection = DriverManager.getConnection(DB_URL, USER, PASS);
