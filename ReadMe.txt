@@ -39,8 +39,13 @@ Broadcaster for since version 0.3.0 now comes with a additional server applicati
 support the new quiz functions. That application is a node.js server. And also the
 Ranker companion application for Visualizing the Quiz grades.
 
-*** MAKE SURE TO INPUT YOUR ID AND TOKEN FOR TWILLIO API IN THE CREDENTIALS.TXT FILE
-YOU MUST CREATE A TWILLIO ACCOUNT FOR THOSE.
+To run in Broadcaster directory run 
+
+	>mvn clean compile
+
+followed by 
+
+	>mvn exec:java
 
 
 ***NEW FOR VERSION 0.5.0 RANKER REQUIRES MySQL DATABASE CONNECTION
