@@ -45,7 +45,7 @@ To run in Broadcaster directory run
 
 followed by 
 
-	>mvn exec:java
+	>mvn -q exec:java
 
 
 ***NEW FOR VERSION 0.5.0 RANKER REQUIRES MySQL DATABASE CONNECTION
