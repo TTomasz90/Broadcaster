@@ -61,7 +61,7 @@ USAGE NOTES FOR NEW FEATURES
 ------------------------------------------------------------------------------------------------
 
 Menu:
-1. Broadcast SMS     -> broadcast SMS to contacts (currently requires Twillo credentials) migrating to sever
+1. Broadcast SMS     -> broadcast SMS to contacts (currently requires Twilio credentials) migrating to sever
 2. Broadcast Email
 3. Add Contact
 4. Delete Contact
